@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let progressHUD = LottieProgressHUD.shared
-        progressHUD.animationFileName = "bounching_ball"
+        progressHUD.animationFileName = "bouncing_ball"
 //      progressHUD.animationFileName = "loading_semicircle"
 //      progressHUD.animationFileName = "material_loader"
         progressHUD.hudHeight = 100

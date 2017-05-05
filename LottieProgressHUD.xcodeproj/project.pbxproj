@@ -13,10 +13,10 @@
 		B80756DE1E9F23BF00F269DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80756DC1E9F23BF00F269DB /* Main.storyboard */; };
 		B80756E01E9F23BF00F269DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80756DF1E9F23BF00F269DB /* Assets.xcassets */; };
 		B80756E31E9F23BF00F269DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80756E11E9F23BF00F269DB /* LaunchScreen.storyboard */; };
-		B80756EB1E9F29AE00F269DB /* LottieProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80756EA1E9F29AE00F269DB /* LottieProgressHUD.swift */; };
-		B80756F21E9F6BCF00F269DB /* bounching_ball.json in Resources */ = {isa = PBXBuildFile; fileRef = B80756EF1E9F6BCF00F269DB /* bounching_ball.json */; };
+		B80756F21E9F6BCF00F269DB /* bouncing_ball.json in Resources */ = {isa = PBXBuildFile; fileRef = B80756EF1E9F6BCF00F269DB /* bouncing_ball.json */; };
 		B80756F31E9F6BCF00F269DB /* loading_semicircle.json in Resources */ = {isa = PBXBuildFile; fileRef = B80756F01E9F6BCF00F269DB /* loading_semicircle.json */; };
 		B80756F41E9F6BCF00F269DB /* material_loader.json in Resources */ = {isa = PBXBuildFile; fileRef = B80756F11E9F6BCF00F269DB /* material_loader.json */; };
+		B81179591EBC5D6B0011E660 /* LottieProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81179581EBC5D6B0011E660 /* LottieProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		B80756DF1E9F23BF00F269DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80756E21E9F23BF00F269DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80756E41E9F23BF00F269DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B80756EA1E9F29AE00F269DB /* LottieProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieProgressHUD.swift; sourceTree = "<group>"; };
-		B80756EF1E9F6BCF00F269DB /* bounching_ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bounching_ball.json; sourceTree = "<group>"; };
+		B80756EF1E9F6BCF00F269DB /* bouncing_ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bouncing_ball.json; sourceTree = "<group>"; };
 		B80756F01E9F6BCF00F269DB /* loading_semicircle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_semicircle.json; sourceTree = "<group>"; };
 		B80756F11E9F6BCF00F269DB /* material_loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = material_loader.json; sourceTree = "<group>"; };
+		B81179581EBC5D6B0011E660 /* LottieProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LottieProgressHUD.swift; path = Source/LottieProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		B80756EC1E9F2E7300F269DB /* Lottie Files */ = {
 			isa = PBXGroup;
 			children = (
-				B80756EF1E9F6BCF00F269DB /* bounching_ball.json */,
+				B80756EF1E9F6BCF00F269DB /* bouncing_ball.json */,
 				B80756F01E9F6BCF00F269DB /* loading_semicircle.json */,
 				B80756F11E9F6BCF00F269DB /* material_loader.json */,
 			);
@@ -111,7 +111,7 @@
 		B81179571EBC5A9A0011E660 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B80756EA1E9F29AE00F269DB /* LottieProgressHUD.swift */,
+				B81179581EBC5D6B0011E660 /* LottieProgressHUD.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 				B80756E31E9F23BF00F269DB /* LaunchScreen.storyboard in Resources */,
 				B80756E01E9F23BF00F269DB /* Assets.xcassets in Resources */,
 				B80756F31E9F6BCF00F269DB /* loading_semicircle.json in Resources */,
-				B80756F21E9F6BCF00F269DB /* bounching_ball.json in Resources */,
+				B80756F21E9F6BCF00F269DB /* bouncing_ball.json in Resources */,
 				B80756F41E9F6BCF00F269DB /* material_loader.json in Resources */,
 				B80756DE1E9F23BF00F269DB /* Main.storyboard in Resources */,
 			);
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B80756DB1E9F23BF00F269DB /* ViewController.swift in Sources */,
-				B80756EB1E9F29AE00F269DB /* LottieProgressHUD.swift in Sources */,
+				B81179591EBC5D6B0011E660 /* LottieProgressHUD.swift in Sources */,
 				B80756D91E9F23BF00F269DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
