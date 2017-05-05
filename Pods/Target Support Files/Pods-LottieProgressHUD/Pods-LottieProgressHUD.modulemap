@@ -1,0 +1,6 @@
+framework module Pods_LottieProgressHUD {
+  umbrella header "Pods-LottieProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
