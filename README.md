@@ -1,19 +1,19 @@
 # LottieProgressHUD
 
-![image alt text](https://github.com/maail/LottieProgressHUD/preview.gif)
+![image alt text](https://github.com/maail/LottieProgressHUD/blob/master/preview.gif)
 
 
 What is Lottie?
 
-Lottie is an open-source animation tool by the amazing folks at Airbnb. Its an iOS, Android, and React Native library that renders After Effects animations in real time, allowing apps to use animations as easily as they use static images.
+[Lottie] (http://airbnb.design/introducing-lottie/) is an open-source animation tool by the amazing folks at Airbnb. Its an iOS, Android, and React Native library that renders After Effects animations in real time, allowing apps to use animations as easily as they use static images.
 
 What is Lottie Progress HUD?
 
-Lottie Progress HUD allows you to use these amazing animations as your loading progress indicator on your apps, in just a few simple steps listed below. This uses the 'lottie-ios' (https://github.com/airbnb/lottie-ios) SDK by AirBnB.
+Lottie Progress HUD allows you to use these amazing animations as your loading progress indicator on your apps, in just a few simple steps listed below. This uses the ['lottie-ios'] (https://github.com/airbnb/lottie-ios) SDK by AirBnB.
 
 Where can you find an awesome library of Lottie 'files' to use with this Progress HUD?
 
-At LottieFiles.com http://lottiefiles.com ofcourse. Or you can just make a custom one using Adobe After Effects. Learn how to make one here. Skies the limit.
+At [LottieFiles.com] (http://lottiefiles.com) ofcourse. Or you can just make a custom one using Adobe After Effects. Skies the limit.
 
 ## Installation
 
